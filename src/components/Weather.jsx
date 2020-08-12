@@ -2,21 +2,26 @@ import React from 'react'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
+import Image from 'react-bootstrap/Image';
 
 export default function Weather() {
     return (
         <Container>
             <Row>
-                <Col>Weather</Col>
-            </Row>
-            <Row>
                 <Col>
-                <img src="http://placekitten.com/200/200" alt="weather"></img>
+                    <Image src="/weather-main.png" alt="meteor weather" />
                 </Col>
             </Row>
             <Row >
-                <Col>Today: 200 °F | -130 °F</Col>
-                <Col>Tomorrow: 180 °F | -120 °F</Col>
+                <Col>
+                    <Image src="/weather-wed.png" alt="wednesday weather" />
+                </Col>
+                <Col>
+                    <Image src="/weather-thurs.png" alt="wednesday weather" />
+                </Col>
+                <Col>
+                    <Image src="/weather-fri.png" alt="wednesday weather" />
+                </Col>
             </Row>
         </Container>     
     )
