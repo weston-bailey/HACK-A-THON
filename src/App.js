@@ -1,26 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Button from 'react-bootstrap/Button';
 import { BrowserRouter, Route, Link } from "react-router-dom";
+import { Container, Row, Col } from 'react-bootstrap';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Container>
+        <Row>
+          <Col className="bords">NavBar</Col>
+        </Row>
+        <Row>
+          <Col md="3" className="bords">.col-3</Col>
+          <Col md="6" className="bords">.col-6</Col>
+          <Col md="3" className="bords">.col-3</Col>
+        </Row>
+      </Container>
     </div>
   );
 }
