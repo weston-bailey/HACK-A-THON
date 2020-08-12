@@ -8,7 +8,7 @@ import Video from './components/Video.jsx'
 function App() {
   return (
     <div className="App">
-
+      <Video />
     </div>
   );
 }
