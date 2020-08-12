@@ -4,6 +4,8 @@ import Button from 'react-bootstrap/Button';
 import { BrowserRouter, Route, Link } from "react-router-dom";
 import { Container, Row, Col } from 'react-bootstrap';
 
+// import { BrowserRouter, Route, Link } from "react-router-dom";
+import Weather from './components/Weather.jsx'
 
 function App() {
   return (
@@ -23,3 +25,4 @@ function App() {
 }
 
 export default App;
+
