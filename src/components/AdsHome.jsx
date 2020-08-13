@@ -1,12 +1,18 @@
 import React from 'react'
-import Image from 'react-bootstrap/Image';
+import { Image, Container, Row } from 'react-bootstrap';
 
 export default function AdsHome(){
     return (
-        <>
-        <Image src="/ad-sq.png" height="200" width="200"/>
-        <Image src="/ad-sq.png" height="200" width="200"/>
-        <Image src="/ad-sq.png" height="200" width="200"/>
-        </>
+        <Container>
+            <Row>
+                <Image src="/terror.png"  rounded fluid />
+            </Row>
+            <Row>
+                <Image src="/gardner.png"  rounded fluid />
+            </Row>
+            <Row>
+                <Image src="/cassini.jpg"  rounded fluid />
+            </Row>
+      </Container>
     )
 }
