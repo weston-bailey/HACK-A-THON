@@ -10,7 +10,7 @@ const Traffic = () => {
         <h3>Moon Traffic</h3>
       </Row>
       <Row>
-        <Image src="https://placekitten.com/400/200" rounded fluid />
+        <Image src="/traffic.png" width="100%" rounded fluid />
       </Row>
     </Container>
   );

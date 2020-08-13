@@ -1,9 +1,18 @@
 import React from 'react'
-
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
 import Image from 'react-bootstrap/Image';
 
 export default function Weather() {
     return (
-        <Image src="/weather.png" height="200" width="200" />
+        <Container>
+            <Row>
+            <h3>Videos</h3>
+            </Row>
+            <Row>
+            <Image src="/weather.png" width="100%" rounded fluid />
+            </Row>
+      </Container>
+
     )
 }
