@@ -58,7 +58,7 @@ const NavBar = () => {
     <Container>
       <Row>
         <Col xs={2}>
-          <Navbar.Brand href="/home" style={title}>Lunar Tribune</Navbar.Brand>
+          <Navbar.Brand href="/" style={title}>Lunar Tribune</Navbar.Brand>
         </Col>
         <Col xs={10}></Col>
       </Row>
@@ -70,10 +70,10 @@ const NavBar = () => {
             
           <div style={foreground}>
             <Nav className="mr-auto">
-              <Nav.Link href="/home">Earthling News</Nav.Link>
+              <Nav.Link href="/">Earthling News</Nav.Link>
               <Nav.Link href="/events">Outpost Events</Nav.Link>
               <Nav.Link href="/realestate">Real Estate</Nav.Link>
-              <Nav.Link href="/home">Asteroid Watch</Nav.Link>
+              <Nav.Link href="/">Asteroid Watch</Nav.Link>
             </Nav>
           </div>
         </Container>
