@@ -4,9 +4,11 @@ import {Button, Modal, Form, FormControl} from 'react-bootstrap';
 
 const chatTexts = [
   "Where was the Kaboom? There was supposed to be an earth-shattering kabaoom!",
-  "Other Thing",
-  "Thing Three",
-  "Thing For"
+  "Have you tried restarting it?",
+  "Sometimes you just have to keep smashing until they fit.",
+  "When humans smack each other's hands it is a sign of respect, when they smack each other's faces it is an insult. Don’t mix it up.",
+  "Turn the third knob three degrees to the right and hit ignite.",
+  "It is no longer polite to smash a glass on the ground as a sign of appreciation for the drink."
 ]
 
 const Chat = () => {
@@ -21,7 +23,7 @@ const Chat = () => {
 
   const handleSend = () => {
     setInputText('')
-    setZorkTextInc((zorkTextInc + 1) % 4)
+    setZorkTextInc((zorkTextInc + 1) % (chatTexts.length + 1))
     setZorkText(chatTexts[zorkTextInc]);
   }
 
