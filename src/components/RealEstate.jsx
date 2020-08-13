@@ -1,7 +1,13 @@
-import React from 'react';
-import { Container, Row, Col, Image, Card, Button } from 'react-bootstrap';
+import React, { useState } from 'react';
+import { Container, Row, Col, Image,  Button, Modal } from 'react-bootstrap';
+
 
 function RealEstate () {
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
   const listing = {
     'text-align': 'left'
   }
@@ -135,6 +141,39 @@ function RealEstate () {
             <Image src="./drink.png" height="100%" width="85%"/>
           </Col>
         </Row>
+
+        <Modal
+          show={show}
+          onHide={handleClose}
+          backdrop="static"
+          keyboard={false}
+          centered='true'
+          >
+
+          <Modal.Header>
+            <Image src="./re-2.png" width="100%" />   
+          </Modal.Header>
+
+          <Modal.Body >
+            <Container>
+              <Row className="justify-content-md-center">
+                <p> 250,000 Stones Location: Vallis Baade  45.9°S 76.2°W Walkability Score: 15 </p>
+                <p>Well even though this human container may not change your life, it's going to give 
+                  you a great place to keep your human! Stainless steel sliding and bespoke curb appeal 
+                  and a roof deck upstairs. The dented metal floors match the open floor plan. Built in 
+                  the 1950's from a disregarded human rocket but a great artifact to treasure! You may 
+                  not have a rog pulled sled but you will appreciate its history.
+                </p>
+              </Row>
+            </Container>
+          </Modal.Body>
+
+          <Modal.Footer>
+            <Button variant="secondary" onClick={handleClose}>
+              X
+            </Button>
+          </Modal.Footer>
+        </Modal>
       </Container>
     </div>
   );
