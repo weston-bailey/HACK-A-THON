@@ -54,8 +54,26 @@
   justify-content: space-around;
 }
 
+.events-img img {
+  position: relative;
+  z-index: 1;
+}
+
 .events-img p {
   padding-top: 10px;
+}
+
+.events-div {
+  background-color:rgba(231, 114, 37, 0.72);
+  border: 1px solid black;
+  font-weight: bold;
+  position: absolute;
+  z-index: 2;
+}
+
+.searchbar {
+  margin-bottom: 30px;
+  margin-top: 10px;
 }
 
 .selected {
@@ -66,6 +84,11 @@
 
 .selected-sort {
   color:rgba(49, 48, 47, 0.72);  
+}
+
+.selected-sort-bar {
+  color:rgba(231, 114, 37, 0.72);
+  margin-bottom: 15px;
 }
 
 .stories p {
@@ -89,3 +112,4 @@
 .articles h5 {
   font-weight:bold;  
 }
+
