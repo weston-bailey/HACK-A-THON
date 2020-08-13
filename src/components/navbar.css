@@ -1,0 +1,19 @@
+.profileIcon {
+  /* background-color: red; */
+}
+
+.profileIcon:hover {
+  background-color: #E77225;
+  cursor: pointer;
+}
+
+.orangeBg {
+  background-color: #E77225;
+  color: white;
+}
+
+.whiteText {
+  color: white;
+}
+
+
