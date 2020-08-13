@@ -10,7 +10,7 @@ import NavBar from './components/NavBar';
 import Weather from './components/Weather.jsx'
 import Traffic from './components/Traffic.jsx'
 import Video from './components/Video.jsx'
-
+import AdsHome from './components/AdsHome.jsx'
 
 function App() {
   return (
@@ -32,7 +32,9 @@ function App() {
             <LandingCarousel />
           </Col>
         
-          <Col md="3" className="bords">.col-3</Col>
+          <Col md="3" className="bords">
+            <AdsHome />
+          </Col>
         </Row>
       </Container>
     </div>
