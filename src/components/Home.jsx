@@ -13,18 +13,18 @@ export default function Home() {
     <div>
     <Container>
       <Row>
-        <Col md="3" className="bords">
+        <Col md="3"  >
         <Weather />
         <Traffic />
         <Video />
         </Col>
         
-        <Col md="6" className="bords">
+        <Col md="6"  >
           <LandingCarousel />
           <Stories />
         </Col>
       
-        <Col md="3" className="bords">
+        <Col md="3"  >
           <AdsHome />
         </Col>
       </Row>

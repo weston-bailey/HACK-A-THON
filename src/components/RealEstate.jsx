@@ -20,13 +20,13 @@ function RealEstate () {
     <div className="real-estate">
       <Container>
         <Row>
-          <Col className="bords">Carousel</Col>
+          <Col  >Carousel</Col>
         </Row>
         <Row>
             <h4> For Rent | For Sale | Abductee Storage | Best Deals | <span className="selected-sort">All</span></h4>
         </Row>
         <Row>
-          <Col lg="9" className="bords">
+          <Col lg="9"  >
             <Row noGutters='true'>
               <Col>
                 <Image src="./crater-for-sale.png" width="85%" />          
@@ -50,12 +50,12 @@ function RealEstate () {
               </Col>
             </Row>
           </Col>
-          <Col lg="3" className="bords">
+          <Col lg="3"  >
             <Image src="./forbidden.png" height="100%" width="85%"/> 
           </Col>
         </Row>
           <Row>
-            <Col lg="9" className="bords">            
+            <Col lg="9"  >            
               <Row noGutters='true'>
                 <Col>
                   <Image src="./re-1.jpg" width="325vw"/>          
@@ -79,12 +79,12 @@ function RealEstate () {
                 </Col>
             </Row>
           </Col>
-          <Col lg="3" className="bords">
+          <Col lg="3"  >
             <Image src="./virgil.png" height="100%" width="85%" />
           </Col>
         </Row>
           <Row>
-            <Col lg="9" className="bords">            
+            <Col lg="9"  >            
               <Row noGutters='true'>
                 <Col>
                   <Image src="./re-2.jpg" width="325vw" onClick={handleShow}/>         
@@ -108,12 +108,12 @@ function RealEstate () {
                 </Col>
             </Row>
           </Col>
-          <Col lg="3" className="bords">
+          <Col lg="3"  >
             <Image src="/fashion.png" height="100%" width="85%"/>
           </Col>
         </Row>
           <Row>
-            <Col lg="9" className="bords">            
+            <Col lg="9"  >            
               <Row noGutters='true'>
                 <Col>
                   <Image src="./crater-for-sale.png" width="325vw"/>          
@@ -137,7 +137,7 @@ function RealEstate () {
                 </Col>
             </Row>
           </Col>
-          <Col lg="3" className="bords">
+          <Col lg="3"  >
             <Image src="./drink.png" height="100%" width="85%"/>
           </Col>
         </Row>
