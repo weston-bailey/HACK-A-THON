@@ -6,13 +6,16 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 // import { BrowserRouter, Route, Link } from "react-router-dom";
 import Weather from './components/Weather.jsx'
+import NavBar from './components/NavBar';
 
 function App() {
   return (
     <div className="App">
       <Container>
         <Row>
-          <Col className="bords">NavBar</Col>
+          <Col className="bords">
+            <NavBar />
+          </Col>
         </Row>
         <Row>
           <Col md="3" className="bords">.col-3</Col>
