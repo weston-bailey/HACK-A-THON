@@ -87,7 +87,7 @@ function RealEstate () {
             <Col lg="9" className="bords">            
               <Row noGutters='true'>
                 <Col>
-                  <Image src="./re-2.jpg" width="325vw"/>         
+                  <Image src="./re-2.jpg" width="325vw" onClick={handleShow}/>         
                 </Col>
                 <Col style={listing}>
                   <h3>
@@ -151,13 +151,14 @@ function RealEstate () {
           >
 
           <Modal.Header>
-            <Image src="./re-2.png" width="100%" />   
+            <Image src="./re-2.jpg" width="100%"/>   
           </Modal.Header>
 
           <Modal.Body >
             <Container>
               <Row className="justify-content-md-center">
-                <p> 250,000 Stones Location: Vallis Baade  45.9°S 76.2°W Walkability Score: 15 </p>
+                <p> 250,000 Stones | Location: Vallis Baade 45.9°S 76.2°W</p>
+                <p> Walkability Score: 15 </p>
                 <p>Well even though this human container may not change your life, it's going to give 
                   you a great place to keep your human! Stainless steel sliding and bespoke curb appeal 
                   and a roof deck upstairs. The dented metal floors match the open floor plan. Built in 
