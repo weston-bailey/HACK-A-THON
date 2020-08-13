@@ -7,9 +7,6 @@ import Home from './components/Home.jsx'
 // import Events from './components/Events.jsx'
 import RealEstate from './components/RealEstate.jsx'
 
-
-
-
 function App() {
   return (
     <div className="App">
