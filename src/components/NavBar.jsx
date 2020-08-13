@@ -21,7 +21,7 @@ const NavBar = () => {
     transform: 'skew(49deg)',
     background: '#E77225',
     position: 'relative',
-    'z-index': '-1'
+    'z-index': '-11'
   }
 
   const parallelogramGray = {
@@ -35,11 +35,15 @@ const NavBar = () => {
 
   const foreground = {
     position: 'absolute',
-    'z-index': '1'
+    'z-index': '1',
+    'font-weight': 'bold',
+    'color': 'Black',
   }
 
   const title = {
-    'font-size': '2rem'
+    'font-size': '2rem',
+    'color': 'Black',
+    'font-weight': 'bold'
   }
 
   const searchForm = {
@@ -54,7 +58,7 @@ const NavBar = () => {
     <Container>
       <Row>
         <Col xs={2}>
-          <Navbar.Brand href="#home" style={title}>Lunar Tribune</Navbar.Brand>
+          <Navbar.Brand href="/home" style={title}>Lunar Tribune</Navbar.Brand>
         </Col>
         <Col xs={10}></Col>
       </Row>
@@ -66,10 +70,10 @@ const NavBar = () => {
             
           <div style={foreground}>
             <Nav className="mr-auto">
-              <Nav.Link href="#home">Earthling News</Nav.Link>
-              <Nav.Link href="#link">Outpost Events</Nav.Link>
-              <Nav.Link href="#link">Real Estate</Nav.Link>
-              <Nav.Link href="#link">Asteroid Watch</Nav.Link>
+              <Nav.Link href="/home">Earthling News</Nav.Link>
+              <Nav.Link href="/events">Outpost Events</Nav.Link>
+              <Nav.Link href="/realestate">Real Estate</Nav.Link>
+              <Nav.Link href="/home">Asteroid Watch</Nav.Link>
             </Nav>
           </div>
         </Container>
