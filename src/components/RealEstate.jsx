@@ -23,7 +23,7 @@ function RealEstate () {
           <Col lg="9" className="bords">
             <Row noGutters='true'>
               <Col>
-                <Image src="./crater-for-sale.png" width="325vw"/>          
+                <Image src="./crater-for-sale.png" width="85%" />          
               </Col>
               <Col style={listing}>
                 <h3>
@@ -45,14 +45,14 @@ function RealEstate () {
             </Row>
           </Col>
           <Col lg="3" className="bords">
-            <Image src="https://placekitten.com/200/200" height="200" width="200"/>   
+            <Image src="./forbidden.png" height="100%" width="85%"/> 
           </Col>
         </Row>
           <Row>
             <Col lg="9" className="bords">            
               <Row noGutters='true'>
                 <Col>
-                  <Image src="./crater-for-sale.png" width="325vw"/>          
+                  <Image src="./re-1.jpg" width="325vw"/>          
                 </Col>
                 <Col style={listing}>
                   <h3>
@@ -74,14 +74,14 @@ function RealEstate () {
             </Row>
           </Col>
           <Col lg="3" className="bords">
-            <Image src="https://placekitten.com/200/200" height="200" width="200"/>
+            <Image src="./virgil.png" height="100%" width="85%" />
           </Col>
         </Row>
           <Row>
             <Col lg="9" className="bords">            
               <Row noGutters='true'>
                 <Col>
-                  <Image src="./crater-for-sale.png" width="325vw"/>          
+                  <Image src="./re-2.jpg" width="325vw"/>         
                 </Col>
                 <Col style={listing}>
                   <h3>
@@ -103,7 +103,7 @@ function RealEstate () {
             </Row>
           </Col>
           <Col lg="3" className="bords">
-            <Image src="https://placekitten.com/200/200" height="200" width="200"/>
+            <Image src="/fashion.png" height="100%" width="85%"/>
           </Col>
         </Row>
           <Row>
@@ -132,7 +132,7 @@ function RealEstate () {
             </Row>
           </Col>
           <Col lg="3" className="bords">
-            <Image src="https://placekitten.com/200/200" height="200" width="200"/>
+            <Image src="./drink.png" height="100%" width="85%"/>
           </Col>
         </Row>
       </Container>
