@@ -24,9 +24,9 @@ export default function Home() {
       
         <Col md="3" className="bords">
           <AdsHome />
-          <Chat />  
         </Col>
       </Row>
+      
     </Container>
     </div>
   )

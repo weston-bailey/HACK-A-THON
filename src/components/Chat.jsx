@@ -33,7 +33,7 @@ const Chat = () => {
 
 
   return ( 
-    <>
+    <Container className="float-right">
       <div className="bubble" onClick={handleShow}>
         <h3>
           Ask Zork
@@ -83,8 +83,8 @@ const Chat = () => {
           </Button>
         </Modal.Footer>
       </Modal>
-    </>
-)
+      </Container>
+  )
 };
 
 export default Chat;
