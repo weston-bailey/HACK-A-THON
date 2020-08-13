@@ -5,9 +5,9 @@ import {Button, Modal, Form, FormControl, Image, Container, Row} from 'react-boo
 const chatTexts = [
   "When humans smack each other's hands it is a sign of respect, when they smack each other's faces it is an insult. Don’t mix it up.",
   "Sometimes you just have to keep smashing until they fit.",
+  "Where was the Kaboom? There was supposed to be an earth-shattering kabaoom!",
   "Have you tried restarting it?",
   "It is no longer polite to smash a glass on the ground as a sign of appreciation for the drink.",
-  "Where was the Kaboom? There was supposed to be an earth-shattering kabaoom!",
   "Turn the third knob three degrees to the right and hit ignite.",
 ]
 
