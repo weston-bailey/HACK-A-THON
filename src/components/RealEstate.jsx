@@ -14,7 +14,7 @@ function RealEstate () {
     <div className="real-estate">
       <Container>
         <Row>
-          <Col className="bords">Carosel</Col>
+          <Col className="bords">Carousel</Col>
         </Row>
         <Row>
           <Col lg="9" className="bords">

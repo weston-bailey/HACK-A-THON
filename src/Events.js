@@ -4,7 +4,6 @@ import Events1 from './pics/Events1.jpg';
 import Events3 from './pics/Events3.jpg';
 import Events4 from './pics/Events4.jpg';
 import Events5 from './pics/Events5.jpg';
-import EventSort from './pics/events-sort.png';
 
 
 function Event () {
