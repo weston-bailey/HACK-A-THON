@@ -41,3 +41,29 @@
   border: 1px solid black;
   color: blue
 }
+
+.events-img {
+  display: flex;
+  padding-bottom: 50px;
+}
+
+.events-img div {
+  width: 300px;
+  display: inline-block;
+  padding-right: 5px;
+  justify-content: space-around;
+}
+
+.events-img p {
+  padding-top: 10px;
+}
+
+.selected {
+  color:rgba(231, 114, 37, 0.72);
+  background-color: rgba(231, 114, 37, 0.72);
+  margin-right: 5px;
+}
+
+.selected-sort {
+  color:rgba(231, 114, 37, 0.72);  
+}
