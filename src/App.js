@@ -7,6 +7,8 @@ import Home from './components/Home.jsx'
 import Events from './Events.js'
 import RealEstate from './components/RealEstate.jsx'
 import Footer from './components/Footer.jsx'
+import Chat from './components/Chat';
+import { Container, Row, Col } from 'react-bootstrap';
 
 function App() {
   return (
@@ -24,7 +26,20 @@ function App() {
             <RealEstate />
           </Route>
         </Switch>
-      </Router>  
+      </Router>
+      <Container>
+        <Row>
+          <Col md="9"></Col>
+          <Col md="3">
+            <Chat /> 
+          </Col>
+        </Row>
+      </Container>
+      <Container>
+        <Row>
+          <Col>&nbsp;</Col>
+        </Row>
+      </Container>
       <Footer />
     </div>
   );
