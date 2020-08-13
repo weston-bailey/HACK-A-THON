@@ -17,6 +17,9 @@ function RealEstate () {
           <Col className="bords">Carosel</Col>
         </Row>
         <Row>
+            <h4> For Rent | For Sale | Abductee Storage | Best Deals | <span className="selected-sort">All</span></h4>
+        </Row>
+        <Row>
           <Col lg="9" className="bords">
             <Row noGutters='true'>
               <Col>
@@ -33,10 +36,10 @@ function RealEstate () {
                   Location: Catena Abulfeda
                 </h6>
                 <h5>
-                  Walkability Score: 95
+                  Walkability Score: -90
                 </h5>
                 <p>
-                There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.
+                The engine that gives its mysterious inner life to a work of art must be the subterranean expression of a wish, working its way to the surface of a narrative. change is an easy panacea. it takes character to stay in one…
                 </p>
               </Col>
             </Row>
@@ -53,13 +56,13 @@ function RealEstate () {
                 </Col>
                 <Col style={listing}>
                   <h3>
-                    Crater For Sale
+                    Jetson Condo
                   </h3>
                   <h6 style={locationText}>
-                    100,000 Stones
+                    3,000,000 Stones
                   </h6>
                   <h6 style={locationText}>
-                    Location: Catena Abulfeda
+                    Location: Vallis Alpes  48.5°N 3.2°E
                   </h6>
                   <h5>
                     Walkability Score: 95
@@ -82,16 +85,16 @@ function RealEstate () {
                 </Col>
                 <Col style={listing}>
                   <h3>
-                    Crater For Sale
+                    Spare Human Container
                   </h3>
                   <h6 style={locationText}>
-                    100,000 Stones
+                    250,000 Stones
                   </h6>
                   <h6 style={locationText}>
-                    Location: Catena Abulfeda
+                    Location: Vallis Baade  45.9°S 76.2°W 
                   </h6>
                   <h5>
-                    Walkability Score: 95
+                    Walkability Score: 15
                   </h5>
                   <p>
                   There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.
@@ -111,16 +114,16 @@ function RealEstate () {
                 </Col>
                 <Col style={listing}>
                   <h3>
-                    Crater For Sale
+                    Nebula Lounge
                   </h3>
                   <h6 style={locationText}>
-                    100,000 Stones
+                    500,000 Stones
                   </h6>
                   <h6 style={locationText}>
-                    Location: Catena Abulfeda
+                  Location: Vallis Bouvard  38.3°S 83.1°W
                   </h6>
                   <h5>
-                    Walkability Score: 95
+                    Walkability Score: 99
                   </h5>
                   <p>
                   There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.
