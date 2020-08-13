@@ -7,12 +7,11 @@ export default function Weather() {
     return (
         <Container>
             <Row>
-            <h3>Weather</h3>
+                <h3>Weather</h3>
             </Row>
             <Row>
-            <Image src="/weather.png" width="100%" rounded fluid />
+                <Image src="/weather.png" width="100%" rounded fluid />
             </Row>
       </Container>
-
     )
 }
