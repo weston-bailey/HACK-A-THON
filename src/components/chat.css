@@ -67,6 +67,11 @@
   color: black
 }
 
+.bubble:hover {
+  color: white;
+  cursor: pointer;
+}
+
 .orangeBg {
   background-color: #E77225;
 }

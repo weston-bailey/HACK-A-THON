@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './navbar.css'
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
@@ -85,30 +86,34 @@ const NavBar = () => {
             <input type="text" placeholder="Search" style={searchForm}></input>
             {/* <Button variant="outline-success">Search</Button> */}
           </Form>
-          
-          <Image src="./alien-icon.png" onClick={handleShow} width="75vw"/> 
-          <Image src="./menu-hamburger.png" onClick={handleShow} width="50vw"/> 
+          <div>
+            <Image src="./alien-icon.png" className="profileIcon" onClick={handleShow} width="50vw"/> 
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <Image src="./menu-hamburger.png" onClick={handleShow} width="50vw"/> 
+          </div>
 
 
           <Modal show={show} onHide={handleClose}>
-            <Modal.Header closeButton>
-              <Modal.Title>Login</Modal.Title>
+            <Modal.Header closeButton className="orangeBg">
+              <Image src="./alien-icon.png" className="profileIcon" onClick={handleShow} width="50vw"/>
+              &nbsp;&nbsp;&nbsp;&nbsp; 
+              <Modal.Title className="whiteText">Login</Modal.Title>
             </Modal.Header>
 
-            <Modal.Body>
+            <Modal.Body className="orangeBg">
               <Form>
                 <Form.Group controlId="formGroupEmail">
-                  <Form.Label>Email address</Form.Label>
+                  <Form.Label className="orangeBg">Email address</Form.Label>
                   <Form.Control type="email" placeholder="Enter email" />
                 </Form.Group>
                 <Form.Group controlId="formGroupPassword">
-                  <Form.Label>Password</Form.Label>
+                  <Form.Label className="orangeBg">Password</Form.Label>
                   <Form.Control type="password" placeholder="Password" />
                 </Form.Group>
               </Form>
             </Modal.Body>
 
-            <Modal.Footer>
+            <Modal.Footer className="orangeBg">
               <Button variant="secondary" onClick={handleClose}>
                 Submit
               </Button>
