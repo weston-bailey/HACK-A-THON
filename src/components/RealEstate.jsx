@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Container, Row, Col, Image,  Button, Modal } from 'react-bootstrap';
+import './realestate.css'
 
 
 function RealEstate () {
@@ -16,15 +17,33 @@ function RealEstate () {
     'font-weight': '400'
   }
 
+  const bannerContainer = {
+    'background-color': 'black',
+    'color': 'white',
+    'text-align': 'left'
+  }
+
   return (
     <div className="real-estate">
       <Container>
-        <Row>
-          <Col  >Carousel</Col>
+        <Row noGutters='true'>
+          <Col>
+            <Image src="./spaceCarPlaceholder.jpg" width/>
+          </Col>
+          <Col style={bannerContainer}>
+            <h3 style={bannerContainer}>
+              Wish you were driving this,
+            </h3>
+            <h3 style={bannerContainer}>
+              now is your chance.
+            </h3>
+          </Col>
         </Row>
+        &nbsp;
         <Row>
             <h4> For Rent | For Sale | Abductee Storage | Best Deals | <span className="selected-sort">All</span></h4>
         </Row>
+        &nbsp;
         <Row>
           <Col lg="9"  >
             <Row noGutters='true'>
@@ -58,7 +77,7 @@ function RealEstate () {
             <Col lg="9"  >            
               <Row noGutters='true'>
                 <Col>
-                  <Image src="./re-1.jpg" width="325vw"/>          
+                  <Image src="./re-2.jpg" width="325vw"/>          
                 </Col>
                 <Col style={listing}>
                   <h3>
@@ -87,7 +106,7 @@ function RealEstate () {
             <Col lg="9"  >            
               <Row noGutters='true'>
                 <Col>
-                  <Image src="./re-2.jpg" width="325vw" onClick={handleShow}/>         
+                  <Image className={'popout'} src="./re-1.jpg" width="325vw" onClick={handleShow}/>         
                 </Col>
                 <Col style={listing}>
                   <h3>
@@ -151,7 +170,7 @@ function RealEstate () {
           >
 
           <Modal.Header>
-            <Image src="./re-2.jpg" width="100%"/>   
+            <Image src="./re-1.jpg" width="100%"/>   
           </Modal.Header>
 
           <Modal.Body >
