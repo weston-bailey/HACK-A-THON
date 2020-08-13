@@ -5,7 +5,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import Form from 'react-bootstrap/Form';
 import FormControl from 'react-bootstrap/FormControl';
 import Button from 'react-bootstrap/button';
-import { Container, Row, Col, Modal } from 'react-bootstrap';
+import { Container, Row, Col, Modal, Image } from 'react-bootstrap';
 
 
 const NavBar = () => {
@@ -85,10 +85,10 @@ const NavBar = () => {
             <input type="text" placeholder="Search" style={searchForm}></input>
             {/* <Button variant="outline-success">Search</Button> */}
           </Form>
+          
+          <Image src="./alien-icon.png" onClick={handleShow} width="75vw"/> 
+          <Image src="./menu-hamburger.png" onClick={handleShow} width="50vw"/> 
 
-          <Button variant="secondary" onClick={handleShow}>
-            profile
-          </Button>
 
           <Modal show={show} onHide={handleClose}>
             <Modal.Header closeButton>
