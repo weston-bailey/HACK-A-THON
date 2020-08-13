@@ -1,4 +1,5 @@
 import React from 'react';
+import Chat from './Chat';
 import Weather from './Weather.jsx';
 import Traffic from './Traffic.jsx';
 import Video from './Video.jsx';
@@ -23,6 +24,7 @@ export default function Home() {
       
         <Col md="3" className="bords">
           <AdsHome />
+          <Chat />  
         </Col>
       </Row>
     </Container>
