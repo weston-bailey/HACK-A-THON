@@ -6,6 +6,7 @@ import NavBar from './components/NavBar';
 import Home from './components/Home.jsx'
 import Events from './Events.js'
 import RealEstate from './components/RealEstate.jsx'
+import Footer from './components/Footer.jsx'
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           </Route>
         </Switch>
       </Router>  
+      <Footer />
     </div>
   );
 }
