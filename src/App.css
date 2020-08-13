@@ -65,5 +65,27 @@
 }
 
 .selected-sort {
-  color:rgba(231, 114, 37, 0.72);  
+  color:rgba(49, 48, 47, 0.72);  
+}
+
+.stories p {
+  font-size: 12px;
+}
+
+.ufo {
+  margin-top: 25px;
+}
+
+.ufo h4{
+  font-weight: bold;
+  text-align: left;
+}
+
+.articles {
+  margin-top: 15px;
+  
+}
+
+.articles h5 {
+  font-weight:bold;  
 }

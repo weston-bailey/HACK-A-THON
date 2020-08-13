@@ -20,7 +20,7 @@ function RealEstate () {
     <div className="real-estate">
       <Container>
         <Row>
-          <Col className="bords">Carosel</Col>
+          <Col className="bords">Carousel</Col>
         </Row>
         <Row>
             <h4> For Rent | For Sale | Abductee Storage | Best Deals | <span className="selected-sort">All</span></h4>
