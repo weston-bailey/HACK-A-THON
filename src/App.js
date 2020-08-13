@@ -1,34 +1,29 @@
 import React from 'react';
 import './App.css';
 import Button from 'react-bootstrap/Button';
-import { BrowserRouter, Route, Link } from "react-router-dom";
-import { Container, Row, Col } from 'react-bootstrap';
-import LandingCarousel from './components/LandingCarousel'
-import Events from './Events'
-
-// import { BrowserRouter, Route, Link } from "react-router-dom";
-import Weather from './components/Weather.jsx'
-import Video from './components/Video.jsx'
-
+import { BrowserRouter as Router, Route, Link, Switch} from "react-router-dom";
+import NavBar from './components/NavBar';
+import Home from './components/Home.jsx'
+// import Events from './components/Events.jsx'
+import RealEstate from './components/RealEstate.jsx'
 
 function App() {
   return (
     <div className="App">
-      <Container>
-        <Row>
-          <Col className="bords">NavBar</Col>
-        </Row>
-        <Row>
-          <Col md="3" className="bords">.col-3</Col>
-          
-          <Col md="6" className="bords">
-            <LandingCarousel />
-          </Col>
-        
-          <Col md="3" className="bords">.col-3</Col>
-        </Row>
-      </Container>
-      <Events />
+      <NavBar />
+      <Router>
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route path="/events">
+            {/* <Events /> */}
+          </Route>
+          <Route path="/realestate">
+            <RealEstate />
+          </Route>
+        </Switch>
+      </Router>  
     </div>
   );
 }
