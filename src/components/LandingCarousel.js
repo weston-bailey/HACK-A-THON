@@ -15,13 +15,6 @@ function LandingCarousel() {
     
     return (
         <div>  
-            <div class='container-fluid' >  
-                <div className="row title" style={{ marginBottom: "20px" }} >  
-                    <div class="col-sm-12 btn btn-warning"> 
-                        <p>Aliens!</p> 
-                    </div>  
-                </div>  
-            </div>  
             <div className='container-fluid' >  
             <Carousel>  
                 <Carousel.Item style={{'height':"400px"}} >  
