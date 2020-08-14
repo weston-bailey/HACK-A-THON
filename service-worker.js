@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/hack-a-thon/precache-manifest.aa6a907d88d64e8a8a2de378ee446fed.js"
+  "/hack-a-thon/precache-manifest.c969c92a533ad34000b90074ba095507.js"
 );
 
 self.addEventListener('message', (event) => {
