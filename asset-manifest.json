@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/hack-a-thon/static/css/main.29cb1b1f.chunk.css",
+    "main.js": "/hack-a-thon/static/js/main.d0ca0b23.chunk.js",
+    "main.js.map": "/hack-a-thon/static/js/main.d0ca0b23.chunk.js.map",
+    "runtime-main.js": "/hack-a-thon/static/js/runtime-main.07d5e3d3.js",
+    "runtime-main.js.map": "/hack-a-thon/static/js/runtime-main.07d5e3d3.js.map",
+    "static/js/2.d5b07a74.chunk.js": "/hack-a-thon/static/js/2.d5b07a74.chunk.js",
+    "static/js/2.d5b07a74.chunk.js.map": "/hack-a-thon/static/js/2.d5b07a74.chunk.js.map",
+    "index.html": "/hack-a-thon/index.html",
+    "precache-manifest.d9709a4d48fe285c09f1e79722736185.js": "/hack-a-thon/precache-manifest.d9709a4d48fe285c09f1e79722736185.js",
+    "service-worker.js": "/hack-a-thon/service-worker.js",
+    "static/css/main.29cb1b1f.chunk.css.map": "/hack-a-thon/static/css/main.29cb1b1f.chunk.css.map",
+    "static/js/2.d5b07a74.chunk.js.LICENSE.txt": "/hack-a-thon/static/js/2.d5b07a74.chunk.js.LICENSE.txt",
+    "static/media/Cage.png": "/hack-a-thon/static/media/Cage.dd4c3131.png",
+    "static/media/Cassowary.jpg": "/hack-a-thon/static/media/Cassowary.f064382d.jpg",
+    "static/media/Events1U.png": "/hack-a-thon/static/media/Events1U.a722cf80.png",
+    "static/media/Events2U.png": "/hack-a-thon/static/media/Events2U.5a8e3e91.png",
+    "static/media/Events3U.png": "/hack-a-thon/static/media/Events3U.e6a2388f.png",
+    "static/media/Events4U.png": "/hack-a-thon/static/media/Events4U.30b5dfd7.png",
+    "static/media/Events5U.png": "/hack-a-thon/static/media/Events5U.0db5680e.png",
+    "static/media/Events6U.png": "/hack-a-thon/static/media/Events6U.75d95338.png",
+    "static/media/Events7U.png": "/hack-a-thon/static/media/Events7U.db795c1e.png",
+    "static/media/Events8U.png": "/hack-a-thon/static/media/Events8U.ed38971b.png",
+    "static/media/Football2.png": "/hack-a-thon/static/media/Football2.edb6345c.png",
+    "static/media/Lasers2.png": "/hack-a-thon/static/media/Lasers2.c67a2ec7.png",
+    "static/media/Teslacrash2.png": "/hack-a-thon/static/media/Teslacrash2.c6a1a32f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.07d5e3d3.js",
+    "static/js/2.d5b07a74.chunk.js",
+    "static/css/main.29cb1b1f.chunk.css",
+    "static/js/main.d0ca0b23.chunk.js"
+  ]
+}
