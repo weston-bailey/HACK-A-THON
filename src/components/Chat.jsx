@@ -1,6 +1,6 @@
 import React, { useState} from 'react';
 import './chat.css'
-import {Button, Modal, Form, FormControl, Image, Container, Row} from 'react-bootstrap';
+import {Button, Modal, Form, Image, Container, Row} from 'react-bootstrap';
 
 const chatTexts = [
   "When humans smack each other's hands it is a sign of respect, when they smack each other's faces it is an insult. Don’t mix it up.",
@@ -32,12 +32,10 @@ const Chat = () => {
   }
 
 
-  return ( 
+  return (
     <Container className="float-right">
       <div className="bubble" onClick={handleShow}>
-        <h3>
-          Ask Zork
-        </h3>
+        <h3>Ask Zork</h3>
       </div>
 
       <Modal
@@ -45,7 +43,7 @@ const Chat = () => {
         onHide={handleClose}
         backdrop="static"
         keyboard={false}
-        centered='true'
+        centered="true"
       >
         <Modal.Header closeButton className="orangeBg">
           <Modal.Title className="whiteText">Ask Zork</Modal.Title>
@@ -53,23 +51,34 @@ const Chat = () => {
 
         <Modal.Body className="orangeBg">
           <Container>
-          <Row className="justify-content-md-center">
-            <Image src="./Zorkhead.png" width="75vw"/> 
-          </Row>
-          <Row className="justify-content-md-center">
-           <p className="whiteText">
-            Our award winning advice columnist is here to answer all of your most important questions; maners, relationship advice, and understanding the complexity of human cultures.
-           </p>
-          </Row>
+            <Row className="justify-content-md-center">
+              <Image src="./Zorkhead.png" width="75vw" />
+            </Row>
+
+            <Row className="justify-content-md-center">
+              <p className="whiteText">
+                Our award winning advice columnist is here to answer all of your
+                most important questions; maners, relationship advice, and
+                understanding the complexity of human cultures.
+              </p>
+            </Row>
           </Container>
+
           <Form>
             <Form.Group controlId="exampleForm.ControlTextarea1">
               <Form.Label className="whiteText">Zork Says:</Form.Label>
+
               <Form.Control as="textarea" rows="3" value={zorkText} />
             </Form.Group>
             <Form.Group controlId="exampleForm.ControlTextarea1">
               <Form.Label className="whiteText">Talk to Zork:</Form.Label>
-              <Form.Control as="textarea" rows="3" value={inputText} onChange={(e) => handleInput(e)}/>
+
+              <Form.Control
+                as="textarea"
+                rows="3"
+                value={inputText}
+                onChange={(e) => handleInput(e)}
+              />
             </Form.Group>
           </Form>
         </Modal.Body>
@@ -78,13 +87,14 @@ const Chat = () => {
           <Button variant="secondary" onClick={handleClose}>
             Close
           </Button>
+
           <Button variant="secondary" onClick={handleSend}>
             Send
           </Button>
         </Modal.Footer>
       </Modal>
-      </Container>
-  )
+    </Container>
+  );
 };
 
 export default Chat;
