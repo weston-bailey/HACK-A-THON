@@ -20,11 +20,11 @@ function App() {
             <Home />
           </Route>
 
-          <Route path="/events">
+          <Route exact path="/events">
             <Events />
           </Route>
 
-          <Route path="/realestate">
+          <Route exact path="/realestate">
             <RealEstate />
           </Route>
         </Switch>
